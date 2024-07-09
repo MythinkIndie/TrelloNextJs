@@ -4,7 +4,6 @@
 
 import { Session, createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import { useRouter, redirect } from 'next/navigation';
-import { Button } from "@nextui-org/react";
 
 export function AuthButton ({ session } : { session: Session | null}) {
 
